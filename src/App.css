@@ -24,6 +24,7 @@
   display: flex;
   flex-direction: column;
   background-color: #251f1f;
+  border-radius: 5px 5px 0 0;
 }
 .ino{
   padding: 7px 10px;
@@ -68,9 +69,9 @@
   color: white;
   text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
       .display{
-         width: 80%;
+         width: 90%;
       }
       .mainhed{
         font-size: 40px;

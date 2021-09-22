@@ -48,7 +48,7 @@ function App() {
 
        <div className="inobox">
        <input type="text" className="ino" placeholder="Enter Cryptoname"  onChange={(e)=>setsearch(e.target.value)}/>
-       <button className="search">Search here</button>
+       <button className="search">Search</button>
        </div>
        
     
