@@ -1,38 +1,79 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.App{
+  display: flex;
+  align-items: center;
+  background-color: rgb(253, 195, 4);
+  flex-direction: column;
+  overflow: hidden;
+}
+.mainhed{
   text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+  color: white;
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+.display{
+  width: 45%;
+  border-radius: 5px;
+  box-shadow: 0 20px 20px 0 rgb(255, 251, 251);
+  background-color: rgba(0, 0, 0, 0.616);
+}
+.inobox{
+  display: flex;
+  flex-direction: column;
+  background-color: #251f1f;
+}
+.ino{
+  padding: 7px 10px;
+  text-align: center;
+  border:none;
+  margin: 30px 25% 0 25%;
+  border-radius: 2px;
+}
+.search{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: none;
+  padding: 7px 10px;
+  margin: 15px 35%;
+  background-color: black;
+  border: 2px solid black;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.boxot{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ 
+}
+.imager{
+  padding: 10px 20px;
+  background-color: #eeeeee;
+  border-radius: 5px 5px 0 0;
+}
+.content{
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px 20px;
+  background-color:  #251f1f; 
   color: white;
+  border-radius: 0 0 5px 5px;
 }
-
-.App-link {
-  color: #61dafb;
+.cryp{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: white;
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media screen and (max-width:600px) {
+      .display{
+         width: 80%;
+      }
+      .mainhed{
+        font-size: 40px;
+      }
+  
 }
