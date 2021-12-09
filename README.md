@@ -13,4 +13,4 @@ API : https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=marke
 
 
 Technologies used :
-
+React js , Html , Css .
